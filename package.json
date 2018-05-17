@@ -1,6 +1,6 @@
 {
   "name": "@amranio/geo-map",
-  "version": "0.1.2",
+  "version": "0.2",
   "description": "",
   "main": "src/index.js",
   "scripts": {
@@ -15,7 +15,8 @@
   },
   "keywords": [
     "geo",
-    "map"
+    "map",
+    "Equirectangular"
   ],
   "license": "ISC",
   "dependencies": {
@@ -23,5 +24,8 @@
     "jsdom": "^11.10.0",
     "node-fetch": "^2.1.2",
     "topojson": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^1.6.9"
   }
 }
